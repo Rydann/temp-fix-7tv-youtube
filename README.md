@@ -1,6 +1,6 @@
 # Fix 7TV emotes on YouTube
 
-## Install the Extention
+## Install the Extension
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/request-interceptor/)  
 - [Chrome](https://chromewebstore.google.com/detail/request-interceptor/bfgblailifedppfilabonohepkofbkpm)
 
