@@ -5,7 +5,7 @@
 - [Chrome](https://chromewebstore.google.com/detail/request-interceptor/bfgblailifedppfilabonohepkofbkpm)
 
 ## Setup Instructions
-**1. Download [this](https://github.com/Rydann/temp-fix-7tv-youtube/blob/main/request-interceptor-rules.json) configuration file.**
+**1. Download [this](https://github.com/Rydann/temp-fix-7tv-youtube/releases/download/initial/request-interceptor-rules.json) configuration file.**
   
 **2. Import the configuration file.**
 ![](https://github.com/Rydann/temp-fix-7tv-youtube/blob/main/images/1.png)
