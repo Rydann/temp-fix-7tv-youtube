@@ -2,31 +2,13 @@
 	{
 		"enabled": true,
 		"id": "bffdc316-6641-4e72-af32-95abb2773ef6",
-		"name": "Rule Group 1",
+		"name": "YouTube 7TV Redirects",
 		"filter": {
 			"condition": "starts-with",
 			"key": "page-url",
 			"value": "https://www.youtube.com/"
 		},
 		"rules": [
-			{
-				"enabled": true,
-				"id": "d4b3cbf0-5cd9-4a4c-b54e-9d9378bdca64",
-				"criteria": {
-					"key": "url",
-					"condition": "equals",
-					"value": "https://7tv.io/v3/emote-sets/62cdd34e72a832540de95857"
-				},
-				"actions": [
-					{
-						"details": {
-							"value": "https://7tv.io/v3/emote-sets/01GD17VE2R000E0RPNH2V9Z16G"
-						},
-						"type": "redirect-to"
-					},
-					{}
-				]
-			},
 			{
 				"enabled": true,
 				"id": "6b288dce-9515-4779-b2ca-962cfbf0fe4a",
@@ -42,8 +24,46 @@
 						},
 						"type": "redirect-to"
 					}
-				]
+				],
+				"description": "Redirect @fuslie 7TV YouTube profile to @fuslie 7TV Twitch profile"
+			},
+			{
+				"enabled": true,
+				"id": "9940a771-989d-4f43-91db-1368e7c3b5fa",
+				"criteria": {
+					"key": "url",
+					"condition": "equals",
+					"value": "https://7tv.io/v3/users/youtube/UCWxlUwW9BgGISaakjGM37aw"
+				},
+				"actions": [
+					{
+						"details": {
+							"value": "https://7tv.io/v3/users/twitch/83402203"
+						},
+						"type": "redirect-to"
+					}
+				],
+				"description": "Redirect @Valkyrae 7TV YouTube profile to @fuslie 7TV Twitch profile"
+			},
+			{
+				"enabled": true,
+				"id": "20ef9772-b04f-4916-8894-87bc711a8fe0",
+				"criteria": {
+					"key": "url",
+					"condition": "equals",
+					"value": "https://7tv.io/v3/users/youtube/UCrPseYLGpNygVi34QpGNqpA"
+				},
+				"actions": [
+					{
+						"details": {
+							"value": "https://7tv.io/v3/users/twitch/40934651"
+						},
+						"type": "redirect-to"
+					}
+				],
+				"description": "Redirect @Ludwig 7TV YouTube profile to @mogulmoves 7TV Twitch profile"
 			}
-		]
+		],
+		"description": "Redirects outdated 7TV api calls to user emote sets to their respective Twitch counterpart."
 	}
 ]
