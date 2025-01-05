@@ -38,12 +38,12 @@
 				"actions": [
 					{
 						"details": {
-							"value": "https://7tv.io/v3/users/twitch/83402203"
+							"value": "https://7tv.io/v3/users/twitch/79615025"
 						},
 						"type": "redirect-to"
 					}
 				],
-				"description": "Redirect @Valkyrae 7TV YouTube profile to @fuslie 7TV Twitch profile"
+				"description": "Redirect @Valkyrae 7TV YouTube profile to @Valkyrae 7TV Twitch profile"
 			},
 			{
 				"enabled": true,
